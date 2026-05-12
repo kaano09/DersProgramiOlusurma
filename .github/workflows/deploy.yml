@@ -41,7 +41,7 @@ jobs:
           username: kaanorhan@136.altekbilisim.com
           password: 136kaanorhan
           local-dir: ./
-          server-dir: ./
+          server-dir: public_html
           timeout: 300000
           protocol: ftp
           security: loose
