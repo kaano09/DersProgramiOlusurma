@@ -37,9 +37,9 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server: altekbilisim.com
+          username: kaanorhan@136.altekbilisim.com
+          password: 136kaanorhan
           local-dir: ./
           server-dir: ./
           timeout: 300000
